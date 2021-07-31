@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #166FE5;
+    padding: 8px 0;  
+     
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    float: left;
+}
+.logo-area{
+    width: 280px;
+}
+.logo-area h2{
+    color:white;
+    font-size: 30px;
+}
+.login-area{
+    width: 65%;
+    float: left;
+
+}
+
+.login-area form{
+    float: right;
+  
+}
+
+.login-area .label{
+    color: white;
+    font-size: 18px;
+}
+.login-area input {
+    border: 1px solid;
+    padding: 3px;
+}
+.login-area label,.login-area input{
+    display: block;
+}
+.login-area .Email,
+.login-area .password,
+.login-area .login {
+   float: left;
+   margin: 10px;
+   
+}
+.login-area .login input{
+    margin-top: 21px;
+    background-color: rgb(52, 52, 228);
+    padding: 2px 8px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.login-area a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.login-area a:hover{
+    text-decoration: underline;
+}
+/* End Header Area*/
+.signup-area-inner{
+   width: 1000px;
+   margin: 0 auto;
+   display: flex;
+    justify-content: space-between;
+}
+
+.signup-area ::after{
+    content:'';
+    clear: both;
+
+}
+
+.left-area{
+    width:50%;
+}
+.left-area p{
+    font-size: 20px;
+    color:#0e385f;
+    font-weight: 600 ;
+    width: 99%;
+    padding: 10px;
+}
+.left-area img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-area{
+   width: 35%;
+}
+.right-area h2{
+    font-size: 30px;
+    color: #333;
+}
+.right-area h4{
+    font-size: 19px;
+    color:#0e385f ;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}  
+.full-name {
+    display: flex;
+    justify-content: space-between;
+}
+.full-name  input{
+    width: 140px;
+    padding: 6px 5px;
+    font-size: 15px;
+}
+ .number input{
+    width: 316px;
+    font-size: 15px;
+    margin-top: 15px;
+    padding:6px 5px; ;
+}
+.birthday h4{
+    margin-top: 15px;
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.birth-date {
+    padding: 8px 0px;
+
+}
+
+.gender{
+    font-size: 19px;
+    font-weight: 550;
+}
+.text-box a{
+    text-decoration: none;
+}
+.text-box p{
+    font-size: 16px;
+}
+.btn input{
+    padding: 5px 50px;
+    font-size: 19px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+
+
